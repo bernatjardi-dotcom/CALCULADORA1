@@ -1,20 +1,15 @@
-def suma(a,b):
-    return a+b
-def resta(a,b):
-    return a-b
-def multiplicacion(a,b):
-    return a*b
-def division(a,b):
-    return a/b
+def suma(v1,v2):
+    return v1+v2
+def resta(v1,v2):
+    return v1-v2
+def multi(v1,v2):
+    return v1*v2
+def divi(v1,v2):
+    return v1/v2
 
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
-    suma = suma(2,3)
-    print(suma)
-    resta = resta(3,4)
-    print(resta)
-    multiplicacion = multiplicacion(3,4)
-    print(multiplicacion)
-    division = division(3,4)
-    print(division)
+
+    print(suma(2,3))
+    print(resta(2,3))
+    print(multi(2,3))
+    print(divi(2,3))
